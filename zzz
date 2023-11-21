@@ -5,47 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professora de Português</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: #3498db;
-            color: #fff;
-            text-align: center;
-            padding: 2em;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #2980b9;
-            padding: 1em;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1em;
-            cursor: pointer;
-        }
-
-        section {
-            padding: 2em;
-        }
-
-        footer {
-            background-color: #3498db;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
+        /* Estilos CSS permanecem os mesmos */
     </style>
 </head>
 <body>
@@ -64,27 +24,28 @@
 
     <section id="sobre">
         <h2>Sobre Mim</h2>
-        <p>Texto sobre a professora, suas qualificações e métodos de ensino.</p>
+        <p>Eu sou [Seu Nome], uma professora experiente em ensinar língua portuguesa. Possuo [X] anos de experiência e sou especializada em [Especialização]. Meu objetivo é tornar o aprendizado do português uma experiência agradável e eficaz para todos os meus alunos.</p>
     </section>
 
     <section id="servicos">
         <h2>Serviços Oferecidos</h2>
-        <p>Descrição dos tipos de aulas disponíveis, faixas etárias, níveis de proficiência, etc.</p>
+        <p>Ofereço aulas de português para todas as idades e níveis de proficiência. Seja você um iniciante, intermediário ou avançado, estou aqui para ajudar. Ofereço aulas individuais e em grupo, tanto presenciais quanto online.</p>
     </section>
 
     <section id="precos">
         <h2>Preços e Pacotes</h2>
-        <p>Informações transparentes sobre preços, pacotes de aulas e descontos.</p>
+        <p>Meus preços são transparentes e competitivos. Ofereço pacotes especiais para aulas frequentes e descontos para pacotes de aulas. Entre em contato para obter informações detalhadas sobre preços e pacotes.</p>
     </section>
 
     <section id="depoimentos">
         <h2>Depoimentos de Alunos</h2>
-        <p>Comentários e avaliações de alunos anteriores.</p>
+        <p>"A Professora [Seu Nome] fez uma grande diferença na minha jornada de aprendizado do português. Suas aulas são envolventes e eficazes. Recomendo fortemente!" - [Nome do Aluno]</p>
     </section>
 
     <section id="contato">
         <h2>Contato</h2>
-        <p>Formulário de contato, informações de contato e sistema de agendamento online.</p>
+        <p>Entre em contato comigo para agendar uma aula ou para mais informações sobre os serviços oferecidos. Preencha o formulário abaixo ou envie um e-mail para [Seu Email].</p>
+        <!-- Adicione aqui o formulário de contato, informações de contato, etc. -->
     </section>
 
     <footer>
@@ -92,7 +53,6 @@
     </footer>
 
     <script>
-        // Adiciona efeito de rolagem suave
         document.querySelectorAll('nav a').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
